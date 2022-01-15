@@ -5,10 +5,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.menu-items>span>ul{
+.menu-items>ul{
     display: flex;
+    
 }
-.menu-items>span>ul>li{
+.menu-items>ul>li{
     list-style: none;
     margin-right: 40px;
+    text-decoration: none;
+ 
+}
+.menu-items>ul>li>a{
+    text-decoration: none;   
 }
