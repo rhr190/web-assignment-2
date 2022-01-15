@@ -1,6 +1,7 @@
 /* font for body of the page */
 body{
     font-family: 'Lora', serif;
+    background-color: #fafafa;
 }
 
 /* nav bar css */
@@ -35,6 +36,7 @@ nav{
 
 
 .First-sec{
+    margin-top: 50px;
     margin-left: 50px;
     display: flex;
 }
@@ -76,8 +78,12 @@ nav{
     
 }
 
-.Second-sec hr{
-    width: 1580px;
+.Second-sec{
+    margin-top: 100px;
+}
+
+hr{    
+    border: 1px solid #ebeaea;
     margin-top: 50px;
     
 }
@@ -96,3 +102,42 @@ nav{
     align-items: center;
 }
 
+.Third-sec h3{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.Third-sec{
+    display: grid;
+    
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-left: 240px;
+}
+
+.items .item .price{
+    font-size: 18px;
+}
+
+.item{
+    width: 325px;
+    height: 470px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 2px #ececec;
+}
+.rating i{
+    color: orange;
+}
+.rating-txt{
+    margin-left: 5px;
+}
