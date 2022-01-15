@@ -16,5 +16,6 @@ body{
  
 }
 .menu-items>ul>li>a{
-    text-decoration: none;   
+    text-decoration: none;
+    color: black;
 }
