@@ -5,13 +5,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.head{
-    margin: 0;
-}
 .menu-items>span>ul{
     display: flex;
 }
 .menu-items>span>ul>li{
     list-style: none;
-    margin-right: 10px;
+    margin-right: 40px;
 }
