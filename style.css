@@ -1,9 +1,14 @@
+/* font for body of the page */
 body{
     font-family: 'Lora', serif;
 }
-.navi{
+
+/* nav bar css */
+
+nav{
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
 }
 .menu-items>ul{
     display: flex;
@@ -19,3 +24,32 @@ body{
     text-decoration: none;
     color: black;
 }
+
+/* nav bar css */
+
+
+
+.First-sec{
+    margin-left: 50px;
+    display: flex;
+}
+
+.First-sec-text{
+    margin-right: 150px;
+}
+
+.First-sec-text h1{
+    font-size: 50px;
+}
+
+.First-sec-img{
+    background-image: url(images/Circle\ design.svg);
+    background-size: 415px 415px;
+    background-repeat: no-repeat;
+    width: 50%;
+    
+    
+    
+
+}
+
