@@ -1,0 +1,17 @@
+body{
+    font-family: 'Lora', serif;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    margin: 0;
+}
+.menu-items>span>ul{
+    display: flex;
+}
+.menu-items>span>ul>li{
+    list-style: none;
+    margin-right: 10px;
+}
