@@ -16,7 +16,7 @@ nav{
 }
 .menu-items>ul>li{
     list-style: none;
-    margin-right: 40px;
+    margin-right: 42px;
     text-decoration: none;
  
 }
@@ -25,6 +25,11 @@ nav{
     color: black;
 }
 
+.menu-items>ul>li:hover{
+    background-color: burlywood;
+    border-radius: 5px;
+    
+}
 /* nav bar css */
 
 
@@ -48,8 +53,27 @@ nav{
     background-repeat: no-repeat;
     width: 50%;
     
-    
-    
+}
+
+.First-sec-img img{
+    transition: transform 1s ease-in-out;
 
 }
+
+.First-sec-img:hover img{
+    transform: scale(1.2, 1.2);
+    
+}
+
+.first-sec-button{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: burlywood;
+    border-style: none;
+}
+
 
